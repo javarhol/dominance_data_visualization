@@ -1,0 +1,5 @@
+"0","ggplot(ranks_per_week, aes(day, rank, group = animal_id, color = sex)) +"
+"0","  geom_line() +"
+"0","  scale_y_reverse(breaks = c(1,2,3,4,5), labels = c(""Alpha"", ""Beta"", ""Gamma"", ""Delta"", ""Epsilon"")) + "
+"0","  scale_color_social() +"
+"0","  facet_wrap(~cage_id) + theme_cowplot()"

@@ -1,0 +1,6 @@
+"0","ggplot(ds_scores, aes(as.factor(cage_id), ds, color = as.factor(cage_rank)))+"
+"0","  geom_point() +"
+"0","  xlab("""") + ylab(""David's Score"") +"
+"0","  scale_color_social() + labs(color = ""Dominance \nRank"") +"
+"0","  facet_wrap(~stab_cat) + "
+"0","  theme_minimal_vgrid() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))"
